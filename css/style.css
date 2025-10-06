@@ -73,7 +73,18 @@ div {
 }
 .box2 {
   grid-area: box2;
+  margin-top: 75px;
+  margin-left: 60px;
 }
+
+.box2 fieldset {
+  margin-bottom: 45px;
+}
+
+.box2 .rate {
+  margin-left: 43px;
+}
+
 .box3 {
   grid-area: box3;
 }
