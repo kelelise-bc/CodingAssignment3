@@ -51,10 +51,10 @@ li {
 ol {
   color: #614419;
 }
-/*comment div borders out before posting to canvas*/
+/*comment div borders out before posting to canvas
 div {
   border: double cornflowerblue;
-}
+}*/
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
