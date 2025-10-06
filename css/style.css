@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../images/pexels-ekaterina-bolovtsova-6607374.jpg") center/cover
+      no-repeat fixed;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #664c36;
+  letter-spacing: -0.3px;
+  line-height: 1.7;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  color: #331c08;
+  letter-spacing: -0.2px;
+  line-height: 2.5;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #d99e82;
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  border-radius: 5%;
+}
+
+figcaption {
+  color: #5c4e4e;
+}
+
+li {
+  color: #614419;
+}
+
+ol {
+  color: #614419;
+}
+/*comment div borders out before posting to canvas*/
+div {
+  border: double cornflowerblue;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  align-items: start;
+}
+.box1 {
+  grid-area: box1;
+}
+.box2 {
+  grid-area: box2;
+}
+.box3 {
+  grid-area: box3;
+}
+.box4 {
+  grid-area: box4;
+}
+
+.wrapper > div {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box4 ol li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.box4 b {
+  color: #9c6507;
+}
+p {
+}
+
+ul li::marker {
+  color: #bb6803;
+}
+
+ol li::marker {
+  font-weight: bolder;
+}
+
+input {
+  font-family: "Cabin", sans-serif;
+  color: rgb(90, 28, 28);
+  font-size: 1rem;
+  padding: 4px 6px;
+}
+
+fieldset {
+  font-family: "Cabin", sans-serif;
+  color: #8d5b06;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+legend {
+  font-family: "Cabin", sans-serif;
+  font-size: large;
+  color: rgb(82, 23, 10);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  text-align: right;
+  font-size: 0.9rem;
+  margin: 0;
+}
